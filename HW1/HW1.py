@@ -23,7 +23,4 @@ def main():
         print("For sigma = {}, the results are: ".format(sig_val))
         linear_regression(n, m, determined_beta, sig_val, X)
 
-
-
-
 main()
