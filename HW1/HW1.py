@@ -3,10 +3,6 @@ def linear_regression(n ,m, determined_beta, sigma, X):
     noise_vector = np.random.normal(loc = 0, scale = np.sqrt(sigma), size = n)
     noise_vector = np.reshape(noise_vector, (n,1))
     Y = (X @ determined_beta) + noise_vector
-    print("The noise vector is:")
-    print(noise_vector)
-    print("The Y vector is:")
-    print(Y)
     calculated_beta = np.linalg.inv((np.transpose(X) @ X)) @ (np.transpose(X) @ Y)
     print("The calculated beta is:\n", calculated_beta)
 
