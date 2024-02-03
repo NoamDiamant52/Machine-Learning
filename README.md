@@ -1,1 +1,1 @@
-This folder contains implementations of basic machine learning algorithms
+This repository contains implementations of basic machine learning algorithms
